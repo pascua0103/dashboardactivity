@@ -34,8 +34,14 @@ $routes->get('/dashboard', 'Dashcont::dashcont');
 $routes->get('/module1', 'Module1::index');
 $routes->get('/module2', 'Module2::index');
 $routes->get('/module3', 'Module3::index');
+$routes->get('/module4', 'Module4::index');
 $routes->get('/dashview', 'Dashview::index');
-$routes->get('/dashview2', 'Dashview2::index');
+
+
+
+$routes->get('/activity6/home', 'Homeact::index');
+$routes->get('/activity6/home/about', 'Homeact::about');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
